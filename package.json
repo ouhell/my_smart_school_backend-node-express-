@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "smart schhool main server",
+  "main": "server.js",
+  "author": "ouhell",
+  "license": "MIT",
+  "scripts": {
+    "start" : "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3"
+  }
+}
